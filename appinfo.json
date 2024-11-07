@@ -1,0 +1,11 @@
+{
+  "id": "com.eggplayer.app",
+  "version": "1.0.0",
+  "vendor": "Luciano Lopez",
+  "type": "web",
+  "main": "index.html",
+  "title": "Egg Player",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "disableBackHistoryAPI": true
+}

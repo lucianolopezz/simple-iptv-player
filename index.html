@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Canais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script src="webOSTVjs-1.2.10/webOSTV.js" charset="utf-8"></script>
+<script src="webOSTVjs-1.2.10/webOSTV-dev.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+<body>
+    <div class="channel-list" id="channelList">
+        <div class="channel-card" tabindex="0" data-url="http://....m3u8">
+            <img src="..."
+                alt="A Fazenda">
+            <h3>A Fazenda</h3>
+        </div>
+        <div class="channel-card" tabindex="0" data-url="http://....m3u8">
+            <img src="..."
+                alt="Globo">
+            <h3>Globo SP HD</h3>
+        </div>
+        <div class="channel-card" tabindex="0" data-url="http://....m3u8">
+            <img src="..."
+                alt="SBT SP HD">
+            <h3>SBT SP HD</h3>
+        </div>
+        <div class="channel-card" tabindex="0" data-url="http://....m3u8">
+            <img src="..."
+                alt="RECORD SP HD">
+            <h3>RECORD SP HD</h3>
+        </div>
+        <div class="channel-card" tabindex="0" data-url="http://....m3u8">
+            <img src="..."
+                alt="BAND SP HD">
+            <h3>BAND SP HD</h3>
+        </div>
+    </div>
+
+    <div id="video-player">
+        <video id="player" controls autoplay></video>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
